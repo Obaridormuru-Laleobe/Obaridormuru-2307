@@ -1,0 +1,124 @@
+header {
+    background-image: url( img/hotel\ img.jpg);
+    background-size: cover;
+    
+    display: grid;
+    justify-content: space-between;
+    height: 90vh;
+    color:  black;
+}
+header h1{
+    text-align: center;
+    color: beige;
+}
+header h2 {
+    /* color: whitesmoke; */
+    color: black;
+    background-color: rgba(245, 245, 220, 0.527);
+    /* background-size: contain; */
+    background-size: 10px;
+    /* padding: -10px; */
+    margin-top: 350px;
+}
+.navbar{
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    justify-content: space-around;
+}
+.navbar ul{
+    display: flex;
+    justify-content:space-between;
+    margin:10px;
+    padding:10px;
+    list-style: none;
+}
+.navbar a{
+    text-decoration: none;
+    padding: 10px;
+    color: aliceblue;
+    margin: 10px;
+    text-decoration-color: beige;
+    justify-content: space-between;
+}
+.navbar :active{
+    color: beige;
+}
+h2{
+    text-align: center;
+}
+.stay{
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 30px;  
+}
+.stay a {
+    list-style: none;
+    color: lavenderblush;
+    text-align: center;
+    text-decoration: none;
+}
+img{
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+    background-color: lavenderblush;
+}
+.recent {
+    background-color: rgb(3, 46, 63);
+    padding: 30px;
+}
+.Features{
+    background-color: rgb(3, 46, 63);
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    color: lightblue;
+    
+}
+.new {
+    background-color: lightslategray;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    color: whitesmoke;
+}
+.cards {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+}
+
+.contact{
+    background-color: rgb(89, 130, 146);
+    padding: 20px;
+    /* width: 70%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    justify-self: center;
+
+}
+.contact form {
+    background-color: beige;
+    padding: 50px;
+    width: 70%;
+    height: 50%;
+}
+.contact input {
+    margin: 10px;
+}
+.contact button {
+    background-color: grey;
+    padding: 8px;
+    border-radius: 20px;
+}
+footer {
+     background-color: grey;
+     padding: 30px;
+     text-align: center;
+}
